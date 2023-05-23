@@ -1,0 +1,76 @@
+.container {
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 100vh;
+}
+
+.number {
+    position: absolute;
+    font-size: 4em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes odliczanie {
+    0%, 100% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+.number:nth-of-type(1) {
+    animation-delay: 1s;
+}
+
+.number:nth-of-type(2) {
+    animation-delay: 2s;
+}
+
+.number:nth-of-type(3) {
+    animation-delay: 3s;
+}
+
+.number:nth-of-type(4) {
+    animation-delay: 4s;
+}
+
+.number:nth-of-type(5) {
+    animation-delay: 5s;
+}
+
+.number:nth-of-type(6) {
+    animation-delay: 6s;
+}
+
+.number:nth-of-type(7) {
+    animation-delay: 7s;
+}
+
+.number:nth-of-type(8) {
+    animation-delay: 8s;
+}
+
+.number:nth-of-type(9) {
+    animation-delay: 9s;
+}
+
+.number:nth-of-type(10) {
+    animation-delay: 10s;
+}
+
+.number:nth-of-type(11) {
+    animation-delay: 11s;
+}
+
